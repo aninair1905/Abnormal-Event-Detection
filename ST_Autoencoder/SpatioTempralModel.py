@@ -22,6 +22,6 @@ def loadModel():
     STModel.add(Conv3DTranspose(filters=1,kernel_size=(11,11,1),strides=(4,4,1),padding='valid',activation='relu'))
 
 
-    STModel.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
+    STModel.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
     return STModel
