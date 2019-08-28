@@ -9,3 +9,4 @@ However, some changes were made to the model and loss fucntions. Specifically, I
 
 First the model is described as the one in the paper: 
 ![alt text](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-319-59081-3_23/MediaObjects/450610_1_En_23_Fig1_HTML.gif)
+After preprocessing the data running `python preprocessing.py /source/to/dataset/` This model was then trained on the Avenue dataset for 32 epochs by running `python train_model.py`
