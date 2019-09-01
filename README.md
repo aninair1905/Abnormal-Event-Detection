@@ -13,4 +13,4 @@ First the model is described as the one in the paper:
 
 After preprocessing the data running `python preprocessing.py /source/to/dataset/ fps`, this model was then trained on the Avenue dataset for 32 epochs by running `python train_model.py`
 
-![Alt text](/Abnormal-Event-Detection/ST_Autoencoder/Rplot01.jpeg)
+![Alt text](/ST_Autoencoder/Rplot01.jpeg)
